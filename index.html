@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samhitha Burja Portfolio</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:linear-gradient(135deg,#ff4fa3,#8b5cf6);
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+.profile-pic{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid white;
+    box-shadow:0 0 20px rgba(255,255,255,0.5);
+    margin-bottom:15px;
+}
+
+header h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:18px;
+    margin-bottom:20px;
+}
+
+.btn{
+    display:inline-block;
+    padding:12px 25px;
+    margin:8px;
+    background:white;
+    color:#8b5cf6;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+}
+
+nav{
+    background:#6d28d9;
+    text-align:center;
+    padding:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:bold;
+}
+
+section{
+    background:white;
+    margin:20px;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+h2{
+    color:#8b5cf6;
+    margin-bottom:15px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    background:#f3e8ff;
+    padding:12px 18px;
+    border-radius:20px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+.skill:hover{
+    transform:scale(1.05);
+}
+
+.project-card{
+    background:#faf5ff;
+    padding:15px;
+    margin:15px 0;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.project-card:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    background:#6d28d9;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+
+    nav a{
+        display:block;
+        margin:10px 0;
+    }
+
+    .profile-pic{
+        width:130px;
+        height:130px;
+    }
+
+    header h1{
+        font-size:30px;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="profile.jpg.jpeg" alt="Samhitha Burja" class="profile-pic">
+
+<h1>Samhitha Burja</h1>
+
+<p>Aspiring Full Stack Developer | B.Tech CSE Student</p>
+
+<a href="https://linkedin.com/in/samhitha" class="btn">LinkedIn</a>
+
+<a href="https://github.com/Samhitha33" class="btn">GitHub</a>
+
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#education">Education</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p>
+I am a B.Tech Computer Science and Engineering student at Andhra University College of Engineering.
+I am passionate about Python Programming, Web Development and Software Development.
+I enjoy learning new technologies, building practical projects and improving my technical skills.
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+<div class="skill">🐍 Python</div>
+<div class="skill">🌐 HTML</div>
+<div class="skill">🎨 CSS</div>
+<div class="skill">⚡ JavaScript (Learning)</div>
+<div class="skill">🗄️ MySQL</div>
+<div class="skill">💻 Git & GitHub</div>
+</div>
+
+</section>
+
+<section id="education">
+
+<h2>Education</h2>
+
+<h3>B.Tech - Computer Science and Engineering</h3>
+
+<p>Andhra University College of Engineering</p>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="project-card">
+<h3>Personal Portfolio Website</h3>
+<p>
+Designed and developed a responsive portfolio website using HTML and CSS.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Future Interns Full Stack Development Project</h3>
+<p>
+Building practical web development projects as part of the internship program.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Python Mini Projects</h3>
+<p>
+Created mini projects and programs using Python fundamentals.
+</p>
+</div>
+
+<a href="#" class="btn">Download Resume</a>
+
+</section>
+
+<section id="contact">
+
+<h2>Contact</h2>
+
+<p><strong>Email:</strong> samhitha@gmail.com</p>
+
+<br>
+
+<p><strong>LinkedIn:</strong> linkedin.com/in/samhitha</p>
+
+<br>
+
+<p><strong>GitHub:</strong> github.com/Samhitha33</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Samhitha Burja | Portfolio Website</p>
+
+</footer>
+
+</body>
+</html>
